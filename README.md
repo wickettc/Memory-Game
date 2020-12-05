@@ -1,3 +1,3 @@
 Memory Game created using React for the Odin Project
 
-https://memory-game-btj0gz3qf.vercel.app/
+https://memory-game-id765k9oa.vercel.app/
