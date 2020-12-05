@@ -73,7 +73,9 @@ function App() {
 
   const clickedCard = ({ name }) => {
     if (clickedCards.includes(name)) {
-      setBestScore(score);
+      if (score > bestScore) {
+        setBestScore(score);
+      }
       setScore(0);
       setClickedCards([]);
     } else {
